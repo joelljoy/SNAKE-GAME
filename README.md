@@ -2,6 +2,7 @@
 
 A classic Snake game implemented in C, using pointers, linked lists for the snake body, and the `ncurses` library for terminal graphics.
 
+VISIT MY GAME:https://joelljoy.github.io/SNAKE-GAME/
 ---
 
 ## Features
