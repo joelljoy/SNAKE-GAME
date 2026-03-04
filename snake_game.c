@@ -29,7 +29,7 @@ typedef struct {
 
 typedef struct snake_node {
 	Position pos;
-	struct snake_node* next;//Points to next snake_node of same type struct
+	struct snake_node* next;
 
 } snake_node;
 
