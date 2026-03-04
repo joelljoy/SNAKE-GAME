@@ -45,7 +45,7 @@ Position food_pos(snake_node* head) {
 		v=1;//assumption
 		snake_node* temp=head;
 		while(temp != NULL) {
-			if(temp->pos.xco==food.xco && temp->pos.yco==food.yco) {// if food generating on snake
+			if(temp->pos.xco==food.xco && temp->pos.yco==food.yco) {
 				v=0;
 				break;
 			}
