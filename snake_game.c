@@ -36,7 +36,7 @@ typedef struct snake_node {
 Position food_pos(snake_node* head) {
 	Position food;
 
-	int v=0;//not possible
+	int v=0;
 	while(!v) {
 
 		food.xco=rand() % (width-2) + (x_off+1);
