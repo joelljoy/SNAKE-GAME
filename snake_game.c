@@ -42,7 +42,7 @@ Position food_pos(snake_node* head) {
 		food.xco=rand() % (width-2) + (x_off+1);
 		food.yco=rand() % (height-2) + (y_off+1);
 
-		v=1;//assumption
+		v=1;
 		snake_node* temp=head;
 		while(temp != NULL) {
 			if(temp->pos.xco==food.xco && temp->pos.yco==food.yco) {
