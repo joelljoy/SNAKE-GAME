@@ -75,7 +75,7 @@ void gameBox(snake_node* head, Position food) { //using ncurses function
 	snake_node* tempo = head;
 	while(tempo != NULL) {
 		if(tempo == head) {
-			mvaddch(tempo->pos.yco,tempo->pos.xco,'0'); // Snake head
+			mvaddch(tempo->pos.yco,tempo->pos.xco,'0');
 		}
 		else {
 			mvaddch(tempo->pos.yco,tempo->pos.xco,'o'); // Snake body
