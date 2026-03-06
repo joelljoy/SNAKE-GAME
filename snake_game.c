@@ -130,7 +130,7 @@ int ateFood(snake_node* head, Position food) {
 
 int checkCollision(snake_node* head) {
 	if(head->pos.xco<=x_off || head->pos.xco >= x_off+width-1 || head->pos.yco<=y_off || head->pos.yco >= y_off+height-1) {
-		return 1;//wall collision
+		return 1;
 	}
 	snake_node* temp=head->next;
 	while(temp != NULL) {
