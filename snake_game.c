@@ -62,7 +62,7 @@ void gameBox(snake_node* head, Position food) {
 		mvaddch(y_off,x_off+i,bound);
 		mvaddch(y_off+height-1,x_off+i,bound);
 	}
-	//left and right
+	
 	for(int i=0; i<height; i++) {
 		mvaddch(y_off+i,x_off,bound);
 		mvaddch(y_off+i,x_off+width-1,bound);
