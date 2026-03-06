@@ -71,7 +71,7 @@ void gameBox(snake_node* head, Position food) {
 	
 	mvaddch(food.yco,food.xco,'*');
 
-	//Snake
+	
 	snake_node* tempo = head;
 	while(tempo != NULL) {
 		if(tempo == head) {
