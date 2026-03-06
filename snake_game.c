@@ -78,7 +78,7 @@ void gameBox(snake_node* head, Position food) {
 			mvaddch(tempo->pos.yco,tempo->pos.xco,'0');
 		}
 		else {
-			mvaddch(tempo->pos.yco,tempo->pos.xco,'o'); // Snake body
+			mvaddch(tempo->pos.yco,tempo->pos.xco,'o');
 		}
 		tempo=tempo->next;
 	}
