@@ -154,7 +154,7 @@ void removeTail(snake_node* head) {
 	}
 	//remove or free the last node and point newTail to NULL
 	free(tempo->next);//the link is gone which points to some other node
-	tempo->next=NULL;//the address is null
+	tempo->next=NULL;
 }
 
 int selectLevel() {
