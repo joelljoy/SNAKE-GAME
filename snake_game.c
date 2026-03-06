@@ -93,7 +93,7 @@ snake_node* addNode(int x, int y) { //when food eaten, new node needs to be crea
 	return newNode;
 }
 
-snake_node* addHead(snake_node* head, int direction) { //to change pos of head when change directions
+snake_node* addHead(snake_node* head, int direction) { 
 	snake_node* newHead=malloc(sizeof(snake_node));
 	newHead->pos.xco=head->pos.xco;
 	newHead->pos.yco=head->pos.yco;
