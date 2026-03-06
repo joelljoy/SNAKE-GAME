@@ -56,7 +56,7 @@ Position food_pos(snake_node* head) {
 }
 
 
-void gameBox(snake_node* head, Position food) { //using ncurses function
+void gameBox(snake_node* head, Position food) { 
 	//top and bottom
 	for(int i=0; i<width; i++) {
 		mvaddch(y_off,x_off+i,bound);
