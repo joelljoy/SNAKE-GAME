@@ -145,7 +145,7 @@ int checkCollision(snake_node* head) {
 
 void removeTail(snake_node* head) {
 	if(!head || !head->next) { //no node present
-		return;//return nothing
+		return;
 	}
 	snake_node* tempo = head;
 	//to go to 2nd last node
