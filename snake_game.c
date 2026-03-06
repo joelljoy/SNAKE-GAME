@@ -135,7 +135,7 @@ int checkCollision(snake_node* head) {
 	snake_node* temp=head->next;
 	while(temp != NULL) {
 		if(head->pos.xco==temp->pos.xco && head->pos.yco==temp->pos.yco) {
-			return 1;//with self
+			return 1;
 		}
 		temp=temp->next;
 	}
